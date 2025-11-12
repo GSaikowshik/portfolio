@@ -1,0 +1,24 @@
+/* --- OPTION 3: Dynamic Animated Gradient --- */
+
+/* 1. Add this @keyframes rule to the TOP of your styles.css file */
+@keyframes subtlePan {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 2. Then, replace your 'body' block with this */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+
+    /* New background: A large, 4-color gradient */
+    background: linear-gradient(120deg, #eaf0ff, #f0f2f5, #e6fcf5, #eaf0ff);
+    background-size: 400% 400%; /* Makes the gradient huge */
+    
+    /* Applies the 'subtlePan' animation over 30 seconds */
+    animation: subtlePan 30s ease infinite; 
+}
