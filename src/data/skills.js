@@ -1,0 +1,80 @@
+export const skillCategories = [
+  {
+    id: "ai-genai",
+    title: "AI & GenAI Stack",
+    subtitle: "LLM Orchestration & Vision",
+    icon: "Sparkles",
+    color: "zinc",
+    accentBorder: "border-t-zinc-400",
+    iconBg: "bg-zinc-800/80 text-white border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-200 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-white",
+    description: "Architecting intelligent agentic workflows, structured data parsing pipelines, and computer vision models.",
+    skills: ["GenAI & LLMs", "Gemini API", "YOLOv8 (CV)", "Deep Learning", "Prompt Engineering", "Structured Output Parsing"]
+  },
+  {
+    id: "backend",
+    title: "Backend Engineering",
+    subtitle: "High-Throughput APIs",
+    icon: "Server",
+    color: "zinc",
+    accentBorder: "border-t-zinc-500",
+    iconBg: "bg-zinc-800/80 text-zinc-200 border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-zinc-400",
+    description: "Engineering low-latency asynchronous microservices, REST endpoints, and schema validation layers.",
+    skills: ["FastAPI", "Python (AsyncIO)", "RESTful APIs", "Pydantic Validation", "Microservices Architecture"]
+  },
+  {
+    id: "frontend",
+    title: "Frontend & Web Apps",
+    subtitle: "Interactive User Interfaces",
+    icon: "Layout",
+    color: "zinc",
+    accentBorder: "border-t-zinc-400",
+    iconBg: "bg-zinc-800/80 text-white border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-zinc-300",
+    description: "Developing responsive, split-screen live rendering viewports, web applications, and fluid client states.",
+    skills: ["React.js", "Tailwind CSS", "JavaScript (ES6+)", "Streamlit", "HTML5 & CSS3"]
+  },
+  {
+    id: "data-cloud",
+    title: "Data & Cloud Systems",
+    subtitle: "Persistence & DevOps",
+    icon: "Database",
+    color: "zinc",
+    accentBorder: "border-t-zinc-500",
+    iconBg: "bg-zinc-800/80 text-zinc-200 border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-zinc-400",
+    description: "Managing relational datasets, connection pooling, cloud hosting, and continuous deployment workflows.",
+    skills: ["PostgreSQL", "Supabase", "Vercel", "Render", "SQL", "Connection Pooling"]
+  },
+  {
+    id: "tools",
+    title: "Tools & Ecosystem",
+    subtitle: "Engineering Tooling",
+    icon: "Wrench",
+    color: "zinc",
+    accentBorder: "border-t-zinc-400",
+    iconBg: "bg-zinc-800/80 text-white border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-zinc-300",
+    description: "Standard tools and environments utilized for rapid prototyping, debugging, and production shipping.",
+    skills: ["Git / GitHub", "VS Code", "Jupyter Notebook", "Postman / API Testing", "npm & Vite"]
+  },
+  {
+    id: "foundations",
+    title: "Foundational CS",
+    subtitle: "Algorithms & Architecture",
+    icon: "ShieldCheck",
+    color: "zinc",
+    accentBorder: "border-t-zinc-500",
+    iconBg: "bg-zinc-800/80 text-zinc-200 border-zinc-700",
+    badgeStyle: "bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-600 hover:text-white",
+    dotColor: "bg-zinc-400",
+    description: "Rigorous fundamentals in data organization, efficient computation, and system principles.",
+    skills: ["Data Structures & Algorithms", "DBMS & Relational Design", "OOP Principles", "Computer Networks"]
+  }
+];
