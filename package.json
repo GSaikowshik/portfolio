@@ -1,24 +1,43 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gandikota Sai Kowshik - Full-Stack AI Developer Portfolio",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GSaikowshik/portfolio.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "ai-developer",
+    "react",
+    "fastapi",
+    "vite"
+  ],
+  "author": "Gandikota Sai Kowshik",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/GSaikowshik/portfolio/issues"
   },
   "homepage": "https://github.com/GSaikowshik/portfolio#readme",
   "dependencies": {
-    "@vercel/analytics": "^2.0.1"
+    "@vercel/analytics": "^2.0.1",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^1.52.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.2"
   }
 }
